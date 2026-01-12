@@ -10,3 +10,60 @@ body {
     color: #333;
     line-height: 1.6;
 }
+
+/* HEADER */
+header {
+    background-color: #1f2933;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* SECTIONS */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #1f2933;
+}
+
+/* CONTATO */
+#contato a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#contato a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e5e7eb;
+    color: #555;
+    font-size: 0.9rem;
+}
