@@ -33,8 +33,8 @@ body {
 .main-card {
     background: var(--card);
     backdrop-filter: blur(10px);
-    width: 95%; max-width: 1100px; /* Aumentei um pouco a largura máxima */
-    height: 650px; /* Aumentei a altura para acomodar melhor o espaço */
+    width: 95%; max-width: 1100px; 
+    height: 650px; 
     border-radius: 24px;
     border: 1px solid rgba(255,255,255,0.1);
     display: flex;
@@ -106,21 +106,21 @@ body {
 
 .content-area {
     flex: 1;
-    padding: 70px; /* Mais espaço nas bordas internas */
+    padding: 70px; 
     overflow-y: auto;
     animation: fadeIn 0.5s ease-out;
 }
 
-/* Espaçamento maior entre o título e o conteúdo */
+/* Espaçamento ajustado para não ficar muito longe do conteúdo */
 .content-area h2 {
-    margin-bottom: 45px; /* Aumentado conforme solicitado */
+    margin-bottom: 25px; /* Reduzido de 45px para 25px para subir o texto */
     font-size: 2.2rem;
     font-weight: 800;
     letter-spacing: -0.5px;
 }
 
 .content-area p, .content-area ul {
-    line-height: 1.8; /* Aumentado para melhor leitura */
+    line-height: 1.8; 
     color: var(--text-dim);
     font-size: 1.1rem;
 }
@@ -129,7 +129,7 @@ body {
     margin-left: 25px;
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Espaço entre os itens da lista */
+    gap: 15px; 
 }
 
 /* --- Rodapé --- */
