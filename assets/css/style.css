@@ -2,68 +2,89 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+    background-color: #f4f7f6;
+    height: 100vh;
 }
 
-/* HEADER */
-header {
-    background-color: #1f2933;
-    color: #ffffff;
-    padding: 40px 20px;
-    text-align: center;
+.container {
+    display: flex;
+    height: 100vh;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.1rem;
-    opacity: 0.9;
-}
-
-/* MAIN */
-main {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-/* SECTIONS */
-section {
-    background-color: #ffffff;
-    padding: 25px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-}
-
-section h2 {
-    margin-bottom: 15px;
-    color: #1f2933;
-}
-
-/* CONTATO */
-#contato a {
-    color: #2563eb;
-    text-decoration: none;
-}
-
-#contato a:hover {
-    text-decoration: underline;
-}
-
-/* FOOTER */
-footer {
+/* Lado Esquerdo */
+.left-side {
+    flex: 1;
+    background-color: #1a202c; /* Azul escuro profissional */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
-    background-color: #e5e7eb;
-    color: #555;
-    font-size: 0.9rem;
+}
+
+.photo-container {
+    width: 250px;
+    height: 250px;
+    background-color: #cbd5e0; /* Cor de placeholder */
+    border-radius: 20px; /* Bordas arredondadas modernas */
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 4px solid #4a5568;
+}
+
+.photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Lado Direito */
+.right-side {
+    flex: 1.5;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu button {
+    padding: 10px 20px;
+    border: 2px solid #1a202c;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu button:hover {
+    background-color: #1a202c;
+    color: white;
+}
+
+/* Área onde o conteúdo aparece */
+.content-display {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    min-height: 300px;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
