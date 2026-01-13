@@ -67,9 +67,15 @@ body {
     background: rgba(129, 140, 248, 0.1);
     padding: 4px 8px;
     border-radius: 6px;
+    display: inline-block;
 }
 
-.nav-menu { display: flex; flex-direction: column; gap: 12px; }
+.nav-menu { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 12px; 
+    margin-top: 30px;
+}
 
 .nav-menu button {
     background: none; border: none; color: var(--text-dim);
@@ -82,11 +88,41 @@ body {
     padding-left: 10px;
 }
 
+/* --- Ajustes de Conteúdo e Espaçamento --- */
+
 .content-area {
     flex: 1;
     padding: 60px;
     overflow-y: auto;
     animation: fadeIn 0.4s ease-out;
+}
+
+/* Espaçamento entre o título (Olá mundo, Projetos, etc) e o texto abaixo */
+.content-area h2 {
+    margin-bottom: 20px; /* Ajuste este valor se quiser mais ou menos espaço */
+    font-size: 1.8rem;
+}
+
+.content-area p, .content-area ul {
+    line-height: 1.6;
+    color: var(--text-dim);
+}
+
+.content-area ul {
+    margin-left: 20px;
+}
+
+/* --- Rodapé --- */
+.footer-credits {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.footer-credits p {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    opacity: 0.6;
+    line-height: 1.4;
 }
 
 @keyframes fadeIn {
