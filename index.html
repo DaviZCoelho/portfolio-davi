@@ -1,43 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Davi Coelho | Portfólio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Davi Coelho | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Davi Coelho</h1>
-        <p>Estudante de Licenciatura em Computação – UFPR</p>
-    </header>
-
-    <main>
-
-        <section id="sobre">
-            <h2>Sobre mim</h2>
-            <p>
-                Sou estudante de Licenciatura em Computação pela UFPR, com interesse
-                em desenvolvimento de software e tecnologia educacional.
-            </p>
+    <main class="container">
+        <section class="left-side">
+            <div class="photo-container">
+                <img src="sua-foto.jpg" alt="Foto de Davi Coelho">
+            </div>
+            <h1>Davi Alessandro Coelho</h1>
+            <p>Licenciatura em Computação - UFPR</p>
         </section>
 
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <p>Em breve adicionarei meus projetos aqui.</p>
-        </section>
+        <section class="right-side">
+            <nav class="menu">
+                <button onclick="mostrarConteudo('quem-sou')">Quem é você?</button>
+                <button onclick="mostrarConteudo('projetos')">Meus Projetos</button>
+                <button onclick="mostrarConteudo('trajetoria')">Trajetória Acadêmica</button>
+            </nav>
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+            <div id="content-display" class="content-display">
+                <h2>Bem-vindo!</h2>
+                <p>Selecione uma opção acima para saber mais sobre mim.</p>
+            </div>
         </section>
-
     </main>
 
-    <footer>
-        <p>© 2026 Davi Coelho</p>
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
