@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Davi Coelho | Portfolio</title>
+    <title>Davi Coelho | Dev & Ed</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <main class="container">
-        <section class="left-side">
-            <div class="photo-container">
-                <img src="sua-foto.jpg" alt="Foto de Davi Coelho">
+    <div class="blur-bg"></div>
+    
+    <main class="main-card">
+        <aside class="sidebar">
+            <div class="profile-area">
+                <div class="photo-frame">
+                    <div class="placeholder-img">DC</div>
+                </div>
+                <h1>Davi Coelho</h1>
+                <span class="badge">Licenciatura em Computação @ UFPR</span>
             </div>
-            <h1>Davi Alessandro Coelho</h1>
-            <p>Licenciatura em Computação - UFPR</p>
-        </section>
+            
+            <nav class="nav-menu">
+                <button onclick="changeTab('sobre')" class="active">Sobre Mim</button>
+                <button onclick="changeTab('trajetoria')">Trajetória</button>
+                <button onclick="changeTab('projetos')">Projetos</button>
+                <button onclick="changeTab('contato')">Contato</button>
+            </nav>
+        </aside>
 
-        <section class="right-side">
-    <nav class="menu">
-    <button onclick="trocarConteudo('quem-sou')">Quem é você?</button>
-    <button onclick="trocarConteudo('projetos')">Meus projetos</button>
-    <button onclick="trocarConteudo('curriculo')">Meu currículo formal</button>
-    <button onclick="trocarConteudo('trajetoria')">Minha trajetória acadêmica</button>
-</nav>
-
-<div id="janela-conteudo" class="content-display">
-    <p>Selecione uma opção ao lado para explorar.</p>
-</div>
+        <section class="content-area" id="content-box">
+            <h2>Olá, mundo!</h2>
+            <p>Selecione uma categoria ao lado para começar.</p>
         </section>
     </main>
 
