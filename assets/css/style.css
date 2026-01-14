@@ -2,8 +2,8 @@
     --bg: #0f172a;
     --card: rgba(30, 41, 59, 0.7);
     --accent: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
-    --text: #f8fafc;
-    --text-dim: #94a3b8;
+    --text: #ffffff; 
+    --text-dim: #e2e8f0;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -48,7 +48,7 @@ body {
     border-right: 1px solid rgba(255,255,255,0.1);
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os itens da sidebar (foto, nome) */
+    align-items: center; 
 }
 
 .photo-frame {
@@ -63,7 +63,7 @@ body {
 
 .sidebar h1 { 
     font-size: 2rem; 
-    margin-bottom: 40px; /* Aumentei o espaço já que o badge saiu */
+    margin-bottom: 40px; 
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ body {
     display: flex; 
     flex-direction: column; 
     gap: 20px; 
-    width: 100%; /* Para os botões ocuparem a largura da sidebar */
+    width: 100%; 
 }
 
 .nav-menu button {
@@ -119,19 +119,18 @@ body {
     font-size: 1.3rem; 
 }
 
-/* --- Rodapé Centralizado --- */
 .footer-credits {
     margin-top: auto;
     padding-top: 40px;
     border-top: 1px solid rgba(255,255,255,0.05);
     width: 100%;
-    text-align: center; /* Centraliza o texto do copyright */
+    text-align: center;
 }
 
 .footer-credits p {
     font-size: 0.85rem;
     color: var(--text-dim);
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 @keyframes fadeIn {
