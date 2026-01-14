@@ -1,7 +1,7 @@
 const tabs = {
     sobre: `
         <h2>Sobre Mim</h2>
-        <p>Olá! 👋 Eu sou o Davi.</p>
+        <p>Olá! 👋 Eu sou o Davi</p>
         <p>Desenvolvedor e graduando em Computação na <strong>UFPR</strong> (7º período). Além de dominar tecnologias como <strong>React, Python e SQL</strong>, utilizo minha trajetória na pesquisa acadêmica para entender a fundo como a tecnologia impacta as pessoas.</p>
         <p>Procuro minha primeira oportunidade de estágio para aplicar meu conhecimento técnico e minha capacidade analítica em projetos desafiadores.</p>
     `,
