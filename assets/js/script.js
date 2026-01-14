@@ -7,7 +7,7 @@ const tabs = {
     `,
     projetos: `
         <h2>Projetos</h2>
-        <p>Em breve, aqui você verá meus repositórios do GitHub e aplicações web.</p>
+        <p>Em breve.</p>
     `,
     contato: `
         <h2>Contato</h2>
