@@ -1,8 +1,9 @@
 const tabs = {
     sobre: `
         <h2>Sobre Mim</h2>
-        <p>Sou estudante de Licenciatura em Computação na UFPR, com foco em desenvolvimento e tecnologias educacionais.</p>
-        <p>Acredito que a tecnologia é a ferramenta mais poderosa para transformar a educação.</p>
+        <p>Olá! 👋 Eu sou o Davi.</p>
+        <p>Desenvolvedor e graduando em Computação na UFPR. Além de dominar tecnologias como React, Python e SQL, utilizo minha trajetória na pesquisa acadêmica para entender a fundo como a tecnologia impacta as pessoas.</p>
+        <p>Procuro minha primeira oportunidade de estágio para aplicar meu conhecimento técnico e minha capacidade analítica em projetos desafiadores.</p>
     `,
     projetos: `
         <h2>Projetos</h2>
