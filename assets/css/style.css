@@ -19,137 +19,132 @@ body {
     overflow: hidden;
 }
 
-/* Bolhas de cor no fundo para dar profundidade */
 .blur-bg {
     position: absolute;
-    width: 300px; height: 300px;
+    width: 400px; height: 400px;
     background: #6366f1;
-    filter: blur(150px);
+    filter: blur(180px);
     z-index: -1;
-    top: 10%; left: 10%;
-    opacity: 0.4;
+    top: 5%; left: 5%;
+    opacity: 0.3;
 }
 
+/* --- Card Ampliado --- */
 .main-card {
     background: var(--card);
     backdrop-filter: blur(10px);
     width: 95%; 
-    max-width: 1400px; /* Aumentado de 1100px para 1400px */
-    height: 85vh;      /* O card agora ocupará 85% da altura da tela */
-    min-height: 700px; /* Garante que não fique pequeno demais em telas baixas */
+    max-width: 1400px; /* Aumentado conforme solicitado */
+    height: 85vh;      /* Ocupa 85% da altura da tela */
+    min-height: 700px; 
     border-radius: 24px;
     border: 1px solid rgba(255,255,255,0.1);
     display: flex;
     box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
-    transition: all 0.3s ease;
 }
 
 .sidebar {
-    width: 350px; /* Aumentado levemente para equilibrar com o novo tamanho do card */
-    padding: 50px 40px;
+    width: 380px; /* Um pouco mais larga para o card grande */
+    padding: 60px 50px;
     border-right: 1px solid rgba(255,255,255,0.1);
     display: flex;
     flex-direction: column;
 }
 
 .photo-frame {
-    width: 80px; height: 80px;
+    width: 100px; height: 100px; /* Foto maior para o card maior */
     background: var(--accent);
-    border-radius: 18px;
-    margin-bottom: 25px;
+    border-radius: 22px;
+    margin-bottom: 30px;
     display: flex; align-items: center; justify-content: center;
-    font-weight: 800; font-size: 1.5rem;
-    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+    font-weight: 800; font-size: 1.8rem;
+    box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
 }
 
-.sidebar h1 { font-size: 1.6rem; margin-bottom: 10px; }
+.sidebar h1 { font-size: 2rem; margin-bottom: 12px; }
 
 .badge {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: #818cf8;
     background: rgba(129, 140, 248, 0.1);
-    padding: 6px 10px;
-    border-radius: 6px;
+    padding: 8px 12px;
+    border-radius: 8px;
     display: inline-block;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .nav-menu { 
     display: flex; 
     flex-direction: column; 
-    gap: 15px; 
+    gap: 20px; 
 }
 
 .nav-menu button {
     background: none; border: none; color: var(--text-dim);
-    text-align: left; font-size: 1.05rem; cursor: pointer;
-    transition: all 0.3s ease; padding: 10px 0;
+    text-align: left; font-size: 1.2rem; /* Fonte do menu maior */
+    cursor: pointer;
+    transition: all 0.3s ease; padding: 12px 0;
     position: relative;
 }
 
 .nav-menu button:hover, .nav-menu button.active {
     color: var(--text);
-    padding-left: 12px;
+    padding-left: 15px;
 }
 
-/* Pequena linha indicadora ao lado do botão ativo */
 .nav-menu button.active::before {
     content: '';
     position: absolute;
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 4px;
-    height: 15px;
+    width: 5px;
+    height: 20px;
     background: var(--accent);
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
-/* --- Ajustes de Conteúdo e Espaçamento --- */
-
+/* --- Conteúdo Ajustado --- */
 .content-area {
     flex: 1;
-    padding: 70px; 
+    padding: 80px 100px; /* Mais preenchimento para card largo */
     overflow-y: auto;
     animation: fadeIn 0.5s ease-out;
 }
 
-/* Espaçamento ajustado para não ficar muito longe do conteúdo */
 .content-area h2 {
-    margin-bottom: 25px; /* Reduzido de 45px para 25px para subir o texto */
-    font-size: 2.2rem;
+    margin-bottom: 30px; /* Equilíbrio de espaçamento */
+    font-size: 2.8rem;    /* Título maior para o card grande */
     font-weight: 800;
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
 }
 
 .content-area p, .content-area ul {
-    line-height: 1.8; 
+    line-height: 1.9; 
     color: var(--text-dim);
-    font-size: 1.1rem;
+    font-size: 1.3rem; /* Texto maior para facilitar a leitura */
 }
 
 .content-area ul {
-    margin-left: 25px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    gap: 15px; 
+    gap: 18px; 
 }
 
-/* --- Rodapé --- */
 .footer-credits {
     margin-top: auto;
-    padding-top: 30px;
+    padding-top: 40px;
     border-top: 1px solid rgba(255,255,255,0.05);
 }
 
 .footer-credits p {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: var(--text-dim);
-    opacity: 0.5;
-    line-height: 1.5;
+    opacity: 0.4;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
+    from { opacity: 0; transform: translateY(15px); }
     to { opacity: 1; transform: translateY(0); }
 }
