@@ -33,16 +33,19 @@ body {
 .main-card {
     background: var(--card);
     backdrop-filter: blur(10px);
-    width: 95%; max-width: 1100px; 
-    height: 650px; 
+    width: 95%; 
+    max-width: 1400px; /* Aumentado de 1100px para 1400px */
+    height: 85vh;      /* O card agora ocupará 85% da altura da tela */
+    min-height: 700px; /* Garante que não fique pequeno demais em telas baixas */
     border-radius: 24px;
     border: 1px solid rgba(255,255,255,0.1);
     display: flex;
     box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
 }
 
 .sidebar {
-    width: 320px;
+    width: 350px; /* Aumentado levemente para equilibrar com o novo tamanho do card */
     padding: 50px 40px;
     border-right: 1px solid rgba(255,255,255,0.1);
     display: flex;
