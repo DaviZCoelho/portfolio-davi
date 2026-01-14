@@ -29,13 +29,12 @@ body {
     opacity: 0.3;
 }
 
-/* --- Card Ampliado --- */
 .main-card {
     background: var(--card);
     backdrop-filter: blur(10px);
     width: 95%; 
-    max-width: 1400px; /* Aumentado conforme solicitado */
-    height: 85vh;      /* Ocupa 85% da altura da tela */
+    max-width: 1400px; 
+    height: 85vh;      
     min-height: 700px; 
     border-radius: 24px;
     border: 1px solid rgba(255,255,255,0.1);
@@ -44,15 +43,16 @@ body {
 }
 
 .sidebar {
-    width: 380px; /* Um pouco mais larga para o card grande */
+    width: 380px; 
     padding: 60px 50px;
     border-right: 1px solid rgba(255,255,255,0.1);
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centraliza os itens da sidebar (foto, nome) */
 }
 
 .photo-frame {
-    width: 100px; height: 100px; /* Foto maior para o card maior */
+    width: 100px; height: 100px; 
     background: var(--accent);
     border-radius: 22px;
     margin-bottom: 30px;
@@ -61,27 +61,22 @@ body {
     box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
 }
 
-.sidebar h1 { font-size: 2rem; margin-bottom: 12px; }
-
-.badge {
-    font-size: 0.85rem;
-    color: #818cf8;
-    background: rgba(129, 140, 248, 0.1);
-    padding: 8px 12px;
-    border-radius: 8px;
-    display: inline-block;
-    margin-bottom: 60px;
+.sidebar h1 { 
+    font-size: 2rem; 
+    margin-bottom: 40px; /* Aumentei o espaço já que o badge saiu */
+    text-align: center;
 }
 
 .nav-menu { 
     display: flex; 
     flex-direction: column; 
     gap: 20px; 
+    width: 100%; /* Para os botões ocuparem a largura da sidebar */
 }
 
 .nav-menu button {
     background: none; border: none; color: var(--text-dim);
-    text-align: left; font-size: 1.2rem; /* Fonte do menu maior */
+    text-align: left; font-size: 1.2rem; 
     cursor: pointer;
     transition: all 0.3s ease; padding: 12px 0;
     position: relative;
@@ -104,17 +99,16 @@ body {
     border-radius: 3px;
 }
 
-/* --- Conteúdo Ajustado --- */
 .content-area {
     flex: 1;
-    padding: 80px 100px; /* Mais preenchimento para card largo */
+    padding: 80px 100px; 
     overflow-y: auto;
     animation: fadeIn 0.5s ease-out;
 }
 
 .content-area h2 {
-    margin-bottom: 30px; /* Equilíbrio de espaçamento */
-    font-size: 2.8rem;    /* Título maior para o card grande */
+    margin-bottom: 25px; 
+    font-size: 2.8rem;    
     font-weight: 800;
     letter-spacing: -1px;
 }
@@ -122,20 +116,16 @@ body {
 .content-area p, .content-area ul {
     line-height: 1.9; 
     color: var(--text-dim);
-    font-size: 1.3rem; /* Texto maior para facilitar a leitura */
+    font-size: 1.3rem; 
 }
 
-.content-area ul {
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 18px; 
-}
-
+/* --- Rodapé Centralizado --- */
 .footer-credits {
     margin-top: auto;
     padding-top: 40px;
     border-top: 1px solid rgba(255,255,255,0.05);
+    width: 100%;
+    text-align: center; /* Centraliza o texto do copyright */
 }
 
 .footer-credits p {
