@@ -4,13 +4,6 @@ const tabs = {
         <p>Sou estudante de Licenciatura em Computação na UFPR, com foco em desenvolvimento e tecnologias educacionais.</p>
         <p>Acredito que a tecnologia é a ferramenta mais poderosa para transformar a educação.</p>
     `,
-    trajetoria: `
-        <h2>Minha Trajetória</h2>
-        <ul>
-            <li><strong>UFPR:</strong> Graduando em Licenciatura em Computação.</li>
-            <li><strong>Pesquisa:</strong> Participação em projetos de extensão sobre alfabetização digital.</li>
-        </ul>
-    `,
     projetos: `
         <h2>Projetos</h2>
         <p>Em breve, aqui você verá meus repositórios do GitHub e aplicações web.</p>
