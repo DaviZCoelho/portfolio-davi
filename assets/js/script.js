@@ -7,7 +7,27 @@ const tabs = {
     `,
     projetos: `
         <h2>Projetos</h2>
-        <p>Em breve.</p>
+        <div class="projetos-grid">
+            <div class="projeto-card">
+                <div class="card-header">
+                    <span class="tag">Java</span>
+                    <span class="tag">Spring</span>
+                </div>
+                <h3>API de Logística</h3>
+                <p>Simulador de marketplace focado em monitoramento de saúde (Health Check) e logs estruturados para sustentação.</p>
+                <a href="https://github.com/DaviZCoelho/logistica.sustentacao" target="_blank" class="btn-projeto">GitHub</a>
+            </div>
+
+            <div class="projeto-card">
+                <div class="card-header">
+                    <span class="tag">HTML/CSS</span>
+                    <span class="tag">JS</span>
+                </div>
+                <h3>Portfólio Pessoal</h3>
+                <p>Design moderno com navegação dinâmica entre abas e efeito Glassmorphism.</p>
+                <a href="#" class="btn-projeto">Você está aqui</a>
+            </div>
+        </div>
     `,
     contato: `
         <h2>Contato</h2>
@@ -20,13 +40,11 @@ function changeTab(tabName) {
     const contentBox = document.getElementById('content-box');
     const buttons = document.querySelectorAll('.nav-menu button');
     
-    // Remove classe ativa de todos os botões
     buttons.forEach(btn => btn.classList.remove('active'));
     
-    // Adiciona classe ativa no botão clicado (para ele ficar destacado)
-    event.currentTarget.classList.add('active');
+    // O event.currentTarget funciona quando clicado
+    if(event) event.currentTarget.classList.add('active');
 
-    // Aplica o efeito de fade-out e troca o conteúdo
     contentBox.style.opacity = '0';
     
     setTimeout(() => {
@@ -35,5 +53,8 @@ function changeTab(tabName) {
     }, 200);
 }
 
-// Carregar "Sobre Mim" por padrão ao abrir
-window.onload = () => changeTab('sobre');
+window.onload = () => {
+    // Força o primeiro botão a ficar ativo no load
+    document.querySelector('.nav-menu button').classList.add('active');
+    changeTab('sobre');
+};
