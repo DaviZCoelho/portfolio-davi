@@ -18,7 +18,7 @@ const tabs = {
                 <p>CRM focado em gestão de leads e vendas com segurança RLS (Row Level Security), gráficos dinâmicos e isolamento de dados por usuário.</p>
                 <div style="display: flex; gap: 10px;">
                     <a href="https://github.com/DaviZCoelho/Dashboard-de-Vendas-" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
-                    <a href="https://dashboard-de-vendas-six.vercel.app" target="_blank" class="btn-projeto" style="flex: 1; background: var(--accent); border: none;">Live Demo</a>
+                    <a href="https://dashboard-de-vendas-ji82dzb5m-davi-alessandro-coelhos-projects.vercel.app" target="_blank" class="btn-projeto" style="flex: 1; background: var(--accent); border: none;">Live Demo</a>
                 </div>
             </div>
 
