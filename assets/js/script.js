@@ -11,6 +11,7 @@ const tabs = {
             <div class="projeto-card">
                 <div class="card-header">
                     <span class="tag">Next.js</span>
+                    <span class="tag">TypeScript</span>
                     <span class="tag">Supabase</span>
                     <span class="tag">Fullstack</span>
                 </div>
@@ -24,7 +25,7 @@ const tabs = {
 
             <div class="projeto-card">
                 <div class="card-header">
-                    <span class="tag">Vanilla JS</span>
+                    <span class="tag">Vanilla JavaScript</span>
                     <span class="tag">LocalStorage</span>
                 </div>
                 <h3>Gerenciador de Desculpas</h3>
@@ -48,7 +49,7 @@ const tabs = {
             <div class="projeto-card">
                 <div class="card-header">
                     <span class="tag">HTML/CSS</span>
-                    <span class="tag">JS</span>
+                    <span class="tag">JavaScript</span>
                 </div>
                 <h3>Portfólio Pessoal</h3>
                 <p>Design moderno com navegação dinâmica entre abas e efeito Glassmorphism.</p>
