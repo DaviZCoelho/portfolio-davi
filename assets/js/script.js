@@ -24,6 +24,19 @@ const tabs = {
 
             <div class="projeto-card">
                 <div class="card-header">
+                    <span class="tag">Vanilla JS</span>
+                    <span class="tag">LocalStorage</span>
+                </div>
+                <h3>Gerenciador de Desculpas</h3>
+                <p>Projeto satírico que simula tomada de decisão corporativa. Possui sistema de Score de viabilidade, histórico de logs e persistência de dados local.</p>
+                <div style="display: flex; gap: 10px;">
+                    <a href="https://github.com/DaviZCoelho/Gerenciador-de-desculpas" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
+                    <a href="https://davizcoelho.github.io/Gerenciador-de-desculpas/" target="_blank" class="btn-projeto" style="flex: 1; background: var(--accent); border: none;">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div class="card-header">
                     <span class="tag">Java</span>
                     <span class="tag">Spring</span>
                 </div>
@@ -45,8 +58,8 @@ const tabs = {
     `,
     contato: `
         <h2>Contato</h2>
-        <p>E-mail: seuemail@email.com</p>
-        <p>LinkedIn: /in/davicoelho</p>
+        <p>E-mail: davizcoelho@ufpr.br</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/davizcoelho/" target="_blank" style="color: var(--text);">linkedin.com/in/davizcoelho/</a></p>
     `
 };
 
@@ -54,17 +67,11 @@ function changeTab(tabName) {
     const contentBox = document.getElementById('content-box');
     const buttons = document.querySelectorAll('.nav-menu button');
     
-    // Remove classe active de todos
     buttons.forEach(btn => btn.classList.remove('active'));
     
-    // Adiciona active no botão clicado (se existir evento)
+    // Adiciona active no botão clicado através da busca pelo texto ou evento
     if (window.event && window.event.currentTarget) {
         window.event.currentTarget.classList.add('active');
-    } else {
-        // Fallback para quando a função é chamada via onload
-        buttons.forEach(btn => {
-            if(btn.innerText.toLowerCase().includes(tabName)) btn.classList.add('active');
-        });
     }
 
     contentBox.style.opacity = '0';
