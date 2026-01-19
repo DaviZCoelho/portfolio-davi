@@ -25,7 +25,7 @@ const tabs = {
 
             <div class="projeto-card">
                 <div class="card-header">
-                    <span class="tag">Vanilla JavaScript</span>
+                    <span class="tag">JavaScript</span>
                     <span class="tag">LocalStorage</span>
                 </div>
                 <h3>Gerenciador de Desculpas</h3>
