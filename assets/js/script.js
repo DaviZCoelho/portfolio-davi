@@ -10,6 +10,20 @@ const tabs = {
         <div class="projetos-grid">
             <div class="projeto-card">
                 <div class="card-header">
+                    <span class="tag">Next.js</span>
+                    <span class="tag">Supabase</span>
+                    <span class="tag">Fullstack</span>
+                </div>
+                <h3>Dashboard de Vendas</h3>
+                <p>CRM focado em gestão de leads e vendas com segurança RLS (Row Level Security), gráficos dinâmicos e isolamento de dados por usuário.</p>
+                <div style="display: flex; gap: 10px;">
+                    <a href="https://github.com/DaviZCoelho/Dashboard-de-Vendas-" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
+                    <a href="https://dashboard-de-vendas-six.vercel.app" target="_blank" class="btn-projeto" style="flex: 1; background: var(--accent); border: none;">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div class="card-header">
                     <span class="tag">Java</span>
                     <span class="tag">Spring</span>
                 </div>
@@ -42,8 +56,9 @@ function changeTab(tabName) {
     
     buttons.forEach(btn => btn.classList.remove('active'));
     
-    // O event.currentTarget funciona quando clicado
-    if(event) event.currentTarget.classList.add('active');
+    if (event && event.currentTarget) {
+        event.currentTarget.classList.add('active');
+    }
 
     contentBox.style.opacity = '0';
     
@@ -54,7 +69,7 @@ function changeTab(tabName) {
 }
 
 window.onload = () => {
-    // Força o primeiro botão a ficar ativo no load
-    document.querySelector('.nav-menu button').classList.add('active');
+    const firstButton = document.querySelector('.nav-menu button');
+    if (firstButton) firstButton.classList.add('active');
     changeTab('sobre');
 };
