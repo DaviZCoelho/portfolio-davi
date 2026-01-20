@@ -1,9 +1,9 @@
 const tabs = {
     sobre: `
     <h2>Sobre Mim</h2>
-    <p>Olá! 👋 Eu sou o <strong>Davi Coelho</strong>.</p>
-    <p>Graduando em Ciência da Computação na <strong>UFPR</strong> (7º período). Minha trajetória une a base técnica da universidade com a prática no desenvolvimento de interfaces modernas e APIs robustas.</p>
-    <p>Foco na construção de soluções escaláveis e na experiência do usuário, buscando sempre aplicar as melhores práticas de mercado em projetos desafiadores.</p>
+    <p>Olá! 👋 Eu sou o Davi</p>
+    <p>Desenvolvedor e graduando em Computação na <strong>UFPR</strong> (7º período). Utilizo minha trajetória na pesquisa acadêmica para entender a fundo como a tecnologia impacta as pessoas e como construir soluções que realmente resolvam problemas.</p>
+    <p>Procuro minha primeira oportunidade de estágio para aplicar meu conhecimento técnico e minha capacidade analítica em projetos desafiadores.</p>
     
     <h3 style="margin-top: 30px; font-size: 1.3rem; color: var(--text);">Tecnologias e Ferramentas</h3>
 
