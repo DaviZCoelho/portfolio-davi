@@ -5,35 +5,37 @@ const tabs = {
     <p>Graduando em Ciência da Computação na <strong>UFPR</strong> (7º período). Minha trajetória une a base técnica da universidade com a prática no desenvolvimento de interfaces modernas e APIs robustas.</p>
     <p>Foco na construção de soluções escaláveis e na experiência do usuário, buscando sempre aplicar as melhores práticas de mercado em projetos desafiadores.</p>
     
-    <h3 style="margin-top: 40px; font-size: 1.3rem; color: var(--text);">Stack Tecnológico</h3>
+    <h3 style="margin-top: 30px; font-size: 1.3rem; color: var(--text);">Stack Tecnológico</h3>
 
-    <div class="tech-category">
-        <h4>Frontend</h4>
-        <div class="tech-stack">
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML"><span>HTML</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS"><span>CSS</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=js" alt="JS"><span>JS</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TS"><span>TS</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"><span>Next.js</span></div>
+    <div class="tech-container">
+        <div class="tech-category">
+            <h4>Frontend</h4>
+            <div class="tech-stack">
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML"><span>HTML</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS"><span>CSS</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=js" alt="JS"><span>JS</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TS"><span>TS</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"><span>Next.js</span></div>
+            </div>
         </div>
-    </div>
 
-    <div class="tech-category">
-        <h4>Backend & Database</h4>
-        <div class="tech-stack">
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"><span>PostgreSQL</span></div>
+        <div class="tech-category">
+            <h4>Backend & Database</h4>
+            <div class="tech-stack">
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"><span>PostgreSQL</span></div>
+            </div>
         </div>
-    </div>
 
-    <div class="tech-category">
-        <h4>Ferramentas & Outros</h4>
-        <div class="tech-stack">
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"><span>GitHub</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=vscode" alt="VSCode"><span>VSCode</span></div>
+        <div class="tech-category">
+            <h4>Ferramentas</h4>
+            <div class="tech-stack">
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"><span>GitHub</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=vscode" alt="VSCode"><span>VSCode</span></div>
+            </div>
         </div>
     </div>
     `,
