@@ -204,3 +204,87 @@ body {
     background: white;
     color: var(--bg);
 }
+
+/* ==========================================================
+   AJUSTES PARA CELULAR (RESPONSIVIDADE)
+   ========================================================== */
+@media (max-width: 768px) {
+    body {
+        overflow: auto; /* Permite rolar a página no celular */
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .main-card {
+        flex-direction: column; /* Sidebar em cima, conteúdo embaixo */
+        height: auto;
+        min-height: unset;
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .sidebar {
+        width: 100%;
+        padding: 30px 20px;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .photo-frame {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    .sidebar h1 {
+        font-size: 1.6rem;
+        margin-bottom: 25px;
+    }
+
+    .nav-menu {
+        flex-direction: row; /* Botões lado a lado */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-menu button {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+    }
+
+    .nav-menu button:hover, .nav-menu button.active {
+        padding-left: 12px;
+        background: rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-menu button.active::before {
+        display: none; /* Remove o traço lateral no celular */
+    }
+
+    .content-area {
+        padding: 30px 20px;
+    }
+
+    .content-area h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .content-area p, .content-area ul {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .projetos-grid {
+        grid-template-columns: 1fr; /* Um card por linha no celular */
+    }
+
+    .footer-credits {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+}
