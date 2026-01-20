@@ -38,12 +38,15 @@ const tabs = {
 
             <div class="projeto-card">
                 <div class="card-header">
-                    <span class="tag">Java</span>
-                    <span class="tag">Spring</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">JavaScript</span>
                 </div>
-                <h3>API de Logística</h3>
-                <p>Simulador de marketplace focado em monitoramento de saúde (Health Check) e logs estruturados para sustentação.</p>
-                <a href="https://github.com/DaviZCoelho/logistica.sustentacao" target="_blank" class="btn-projeto">GitHub</a>
+                <h3>Consulta de Clima Real-Time</h3>
+                <p>Aplicação que consome dados da OpenWeatherMap. Possui backend em FastAPI com tratamento de erros e interface dinâmica com Fetch API.</p>
+                <div style="display: flex; gap: 10px;">
+                    <a href="https://github.com/DaviZCoelho/API-de-clima" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
+                </div>
             </div>
 
             <div class="projeto-card">
@@ -70,7 +73,6 @@ function changeTab(tabName) {
     
     buttons.forEach(btn => btn.classList.remove('active'));
     
-    // Adiciona active no botão clicado através da busca pelo texto ou evento
     if (window.event && window.event.currentTarget) {
         window.event.currentTarget.classList.add('active');
     }
