@@ -138,7 +138,6 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Estilos dos Projetos --- */
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -205,18 +204,15 @@ body {
     color: var(--bg);
 }
 
-/* ==========================================================
-   AJUSTES PARA CELULAR (RESPONSIVIDADE)
-   ========================================================== */
 @media (max-width: 768px) {
     body {
-        overflow: auto; /* Permite rolar a página no celular */
+        overflow: auto;
         height: auto;
         padding: 20px 10px;
     }
 
     .main-card {
-        flex-direction: column; /* Sidebar em cima, conteúdo embaixo */
+        flex-direction: column; 
         height: auto;
         min-height: unset;
         width: 100%;
@@ -242,7 +238,7 @@ body {
     }
 
     .nav-menu {
-        flex-direction: row; /* Botões lado a lado */
+        flex-direction: row; 
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
@@ -262,7 +258,7 @@ body {
     }
 
     .nav-menu button.active::before {
-        display: none; /* Remove o traço lateral no celular */
+        display: none;
     }
 
     .content-area {
@@ -280,7 +276,7 @@ body {
     }
 
     .projetos-grid {
-        grid-template-columns: 1fr; /* Um card por linha no celular */
+        grid-template-columns: 1fr; 
     }
 
     .footer-credits {
