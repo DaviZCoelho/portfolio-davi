@@ -29,7 +29,6 @@ body {
     opacity: 0.3;
 }
 
-/* --- CARD EXPANDIDO --- */
 .main-card {
     background: var(--card);
     backdrop-filter: blur(10px);
@@ -139,7 +138,6 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* --- Estilos dos Projetos --- */
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -206,7 +204,6 @@ body {
     color: var(--bg);
 }
 
-/* --- TECH STACK ORGANIZADO EM COLUNAS --- */
 .tech-container {
     display: flex;
     justify-content: space-between;
@@ -267,7 +264,6 @@ body {
     text-align: center;
 }
 
-/* --- RESPONSIVIDADE --- */
 @media (max-width: 1024px) {
     .tech-container {
         flex-direction: column;
