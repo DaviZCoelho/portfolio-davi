@@ -5,7 +5,7 @@ const tabs = {
     <p>Graduando em Ciência da Computação na <strong>UFPR</strong> (7º período). Minha trajetória une a base técnica da universidade com a prática no desenvolvimento de interfaces modernas e APIs robustas.</p>
     <p>Foco na construção de soluções escaláveis e na experiência do usuário, buscando sempre aplicar as melhores práticas de mercado em projetos desafiadores.</p>
     
-    <h3 style="margin-top: 30px; font-size: 1.3rem; color: var(--text);">Stack Tecnológico</h3>
+    <h3 style="margin-top: 30px; font-size: 1.3rem; color: var(--text);">Tecnologias e Ferramentas</h3>
 
     <div class="tech-container">
         <div class="tech-category">
