@@ -56,7 +56,10 @@ const tabs = {
                 </div>
                 <h3>Portfólio Pessoal</h3>
                 <p>Design moderno com navegação dinâmica entre abas e efeito Glassmorphism.</p>
-                <a href="#" class="btn-projeto">Você está aqui</a>
+                <div style="display: flex; gap: 10px;">
+                    <a href="https://github.com/DaviZCoelho/portfolio-davi" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
+                    <a href="#" class="btn-projeto" style="flex: 1; background: var(--accent); border: none;">Você está aqui</a>
+                </div>
             </div>
         </div>
     `,
