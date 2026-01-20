@@ -7,19 +7,17 @@ const tabs = {
     
     <h3 style="margin-top: 40px; font-size: 1.3rem; margin-bottom: 20px; color: var(--text);">Stack Tecnológico</h3>
     <div class="tech-stack">
-        </div>
-`
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"><span>TypeScript</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"><span>JavaScript</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"><span>Next.js</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=sql" alt="SQL"><span>SQL</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML5"><span>HTML5</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS3"><span>CSS3</span></div>
-            <div class="tech-item"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
-        </div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"><span>TypeScript</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"><span>JavaScript</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"><span>Next.js</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=sql" alt="SQL"><span>SQL</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML5"><span>HTML5</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS3"><span>CSS3</span></div>
+        <div class="tech-item"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
+    </div>
     `,
     projetos: `
         <h2>Projetos</h2>
