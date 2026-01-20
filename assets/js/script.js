@@ -2,8 +2,22 @@ const tabs = {
     sobre: `
         <h2>Sobre Mim</h2>
         <p>Olá! 👋 Eu sou o Davi</p>
-        <p>Desenvolvedor e graduando em Computação na <strong>UFPR</strong> (7º período). Além de dominar tecnologias como <strong>React, Python e SQL</strong>, utilizo minha trajetória na pesquisa acadêmica para entender a fundo como a tecnologia impacta as pessoas.</p>
+        <p>Desenvolvedor e graduando em Computação na <strong>UFPR</strong> (7º período). Utilizo minha trajetória na pesquisa acadêmica para entender a fundo como a tecnologia impacta as pessoas e como construir soluções que realmente resolvam problemas.</p>
         <p>Procuro minha primeira oportunidade de estágio para aplicar meu conhecimento técnico e minha capacidade analítica em projetos desafiadores.</p>
+        
+        <h3 style="margin-top: 40px; font-size: 1.5rem; margin-bottom: 20px;">Tecnologias que tenho conhecimento:</h3>
+        <div class="tech-stack">
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"><span>TypeScript</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"><span>JavaScript</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"><span>Next.js</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=sql" alt="SQL"><span>SQL</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML5"><span>HTML5</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS3"><span>CSS3</span></div>
+            <div class="tech-item"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
+        </div>
     `,
     projetos: `
         <h2>Projetos</h2>
