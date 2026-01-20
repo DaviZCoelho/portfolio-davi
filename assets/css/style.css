@@ -138,6 +138,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* --- Estilos dos Projetos --- */
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -204,6 +205,39 @@ body {
     color: var(--bg);
 }
 
+/* --- NOVA SEÇÃO: TECH STACK (ÍCONES) --- */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s ease;
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+}
+
+.tech-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.tech-item span {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-weight: 600;
+}
+
+/* --- RESPONSIVIDADE --- */
 @media (max-width: 768px) {
     body {
         overflow: auto;
@@ -273,6 +307,11 @@ body {
     .content-area p, .content-area ul {
         font-size: 1.1rem;
         text-align: center;
+    }
+
+    /* Ajuste da grid de tech e projetos no mobile */
+    .tech-stack {
+        justify-content: center;
     }
 
     .projetos-grid {
