@@ -79,7 +79,7 @@ const tabs = {
                 <h3>Consulta de Clima Real-Time</h3>
                 <p>Aplicação que consome dados da OpenWeatherMap. Possui backend em FastAPI com tratamento de erros e interface dinâmica com Fetch API.</p>
                 <div style="display: flex; gap: 10px;">
-                    <a href="https://github.com/DaviZCoelho/API-de-clima" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
+                    <a href="https://github.com/DaviZCoelho/API_Clima" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
                 </div>
             </div>
 
