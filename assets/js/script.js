@@ -100,8 +100,8 @@ const tabs = {
     `,
     contato: `
         <h2>Contato</h2>
-        <p>E-mail: davizcoelho@ufpr.br</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/davizcoelho/" target="_blank" style="color: var(--text);">linkedin.com/in/davizcoelho/</a></p>
+        <p>E-mail: davi.a.coelho@gmail.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/davi-alessandro-coelho-a753a73a7/" target="_blank" style="color: var(--text);">linkedin.com/in/davizcoelho/</a></p>
     `
 };
 
