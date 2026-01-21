@@ -80,6 +80,7 @@ const tabs = {
                 <p>Aplicação que consome dados da OpenWeatherMap. Possui backend em FastAPI com tratamento de erros e interface dinâmica com Fetch API.</p>
                 <div style="display: flex; gap: 10px;">
                     <a href="https://github.com/DaviZCoelho/API_Clima" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
+                    <a href="https://api-clima-ld21.vercel.app/" target="_blank" class="btn-projeto" style="flex: 1; background: var(--accent); border: none;">Live Demo</a>
                 </div>
             </div>
 
