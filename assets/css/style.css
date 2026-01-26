@@ -51,6 +51,7 @@ body {
     align-items: center; 
 }
 
+/* AJUSTADO: overflow hidden para a imagem não sair das bordas arredondadas */
 .photo-frame {
     width: 100px; height: 100px; 
     background: var(--accent);
@@ -59,6 +60,15 @@ body {
     display: flex; align-items: center; justify-content: center;
     font-weight: 800; font-size: 1.8rem;
     box-shadow: 0 10px 25px rgba(99, 102, 241, 0.4);
+    overflow: hidden; 
+}
+
+/* NOVO: Regra para a foto se ajustar ao frame */
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .sidebar h1 { 
