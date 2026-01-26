@@ -9,7 +9,7 @@ const tabs = {
 
     <div class="tech-container">
         <div class="tech-category">
-            <h4>Frontend</h4>
+            <h4>Frontend & Backend</h4>
             <div class="tech-stack">
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML"><span>HTML</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS"><span>CSS</span></div>
