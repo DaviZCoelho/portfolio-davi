@@ -120,6 +120,8 @@ function changeTab(tabName) {
     setTimeout(() => {
         contentBox.innerHTML = tabs[tabName];
         contentBox.style.opacity = '1';
+        
+        gtag('event', 'page_view', { page_title: tabName, page_path: '/' + tabName });
     }, 200);
 }
 
