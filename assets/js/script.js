@@ -2,7 +2,7 @@ const tabs = {
     sobre: `
     <h2>Sobre Mim</h2>
     <p>Olá! 👋 Eu sou o Davi</p>
-    <p>Desenvolvedor e graduando em Computação na <strong>UFPR</strong> (7º período). Utilizo minha trajetória na pesquisa acadêmica para entender a fundo como a tecnologia impacta as pessoas e como construir soluções que realmente resolvam problemas.</p>
+    <p>Desenvolvedor e graduando em Licenciatura em Computação na <strong>UFPR</strong> (7º período). Utilizo minha trajetória na pesquisa acadêmica para entender a fundo como a tecnologia impacta as pessoas e como construir soluções que realmente resolvam problemas.</p>
     <p>Procuro minha primeira oportunidade de estágio para aplicar meu conhecimento técnico e minha capacidade analítica em projetos desafiadores.</p>
     
     <h3 style="margin-top: 30px; font-size: 1.3rem; color: var(--text);">Tecnologias e Ferramentas</h3>
