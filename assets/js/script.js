@@ -98,10 +98,18 @@ const tabs = {
             </div>
         </div>
     `,
-    contato: `
+contato: `
         <h2>Contato</h2>
-        <p>E-mail: davi.a.coelho@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/davi-alessandro-coelho-a753a73a7/" target="_blank" style="color: var(--text);">linkedin.com/in/davi-alessandro-coelho</a></p>
+        <div class="contato-info">
+            <p><strong>E-mail:</strong> <a href="mailto:davi.a.coelho@gmail.com" style="color: var(--text); text-decoration: none;">davi.a.coelho@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/davi-alessandro-coelho-a753a73a7/" target="_blank" style="color: var(--text);">linkedin.com/in/davi-alessandro-coelho</a></p>
+        </div>
+
+        <h3 style="margin-top: 30px; margin-bottom: 15px; color: var(--text);">Currículo Profissional</h3>
+        <div style="display: flex; gap: 15px; max-width: 400px;">
+            <a href="assets/docs/Curriculo_Davi_Coelho.pdf" target="_blank" class="btn-projeto" style="flex: 1; text-align: center; text-decoration: none;">Visualizar PDF</a>
+            <a href="assets/docs/Curriculo_Davi_Coelho.pdf" download class="btn-projeto" style="flex: 1; text-align: center; text-decoration: none; background: var(--accent); border: none;">Baixar CV</a>
+        </div>
     `
 };
 
