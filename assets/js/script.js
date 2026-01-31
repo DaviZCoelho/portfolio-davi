@@ -105,10 +105,10 @@ contato: `
             <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/davi-alessandro-coelho-a753a73a7/" target="_blank" style="color: var(--text);">linkedin.com/in/davi-alessandro-coelho</a></p>
         </div>
 
-        <h3 style="margin-top: 30px; margin-bottom: 15px; color: var(--text);">Currículo Profissional</h3>
+        <h3 style="margin-top: 30px; margin-bottom: 15px; color: var(--text);">Currículo</h3>
         <div style="display: flex; gap: 15px; max-width: 400px;">
             <a href="assets/docs/Curriculo_Davi_Coelho.pdf" target="_blank" class="btn-projeto" style="flex: 1; text-align: center; text-decoration: none;">Visualizar PDF</a>
-            <a href="assets/docs/Curriculo_Davi_Coelho.pdf" download class="btn-projeto" style="flex: 1; text-align: center; text-decoration: none; background: var(--accent); border: none;">Baixar CV</a>
+            <a href="assets/docs/Curriculo_Davi_Coelho.pdf" download class="btn-projeto" style="flex: 1; text-align: center; text-decoration: none; ">Baixar CV</a>
         </div>
     `
 };
