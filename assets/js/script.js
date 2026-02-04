@@ -64,7 +64,7 @@ const tabs = {
                     <span class="tag">Python</span>
                     <span class="tag">Docker</span>
                 </div>
-                <h3>Thumbnail Generator AI</h3>
+                <h3>Gerador de Thumbnail com IA</h3>
                 <p>Aplicação serverless "Event-Driven" para criação de thumbnails. O sistema processa uploads no S3, aciona containers Docker na AWS Lambda para remover fundos com IA (rembg) e compõe a arte final automaticamente.</p>
                 <div style="display: flex; gap: 10px;">
                     <a href="https://github.com/DaviZCoelho/Gerador_De_Thumbnail" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
