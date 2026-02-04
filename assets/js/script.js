@@ -59,6 +59,21 @@ const tabs = {
 
             <div class="projeto-card">
                 <div class="card-header">
+                    <span class="tag">React</span>
+                    <span class="tag">AWS Lambda</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Docker</span>
+                </div>
+                <h3>Thumbnail Generator AI</h3>
+                <p>Aplicação serverless "Event-Driven" para criação de thumbnails. O sistema processa uploads no S3, aciona containers Docker na AWS Lambda para remover fundos com IA (rembg) e compõe a arte final automaticamente.</p>
+                <div style="display: flex; gap: 10px;">
+                    <a href="https://github.com/DaviZCoelho/Gerador_De_Thumbnail" target="_blank" class="btn-projeto" style="flex: 1;">GitHub</a>
+                    <a href="https://gerador-de-thumbnail.vercel.app" target="_blank" class="btn-projeto" style="flex: 1; background: var(--accent); border: none;">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div class="card-header">
                     <span class="tag">JavaScript</span>
                     <span class="tag">LocalStorage</span>
                 </div>
@@ -98,7 +113,7 @@ const tabs = {
             </div>
         </div>
     `,
-contato: `
+    contato: `
         <h2>Contato</h2>
         <div class="contato-info">
             <p><strong>E-mail:</strong> <a href="mailto:davi.a.coelho@gmail.com" style="color: var(--text); text-decoration: none;">davi.a.coelho@gmail.com</a></p>
