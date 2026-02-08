@@ -8,35 +8,55 @@ const tabs = {
     <h3 style="margin-top: 30px; font-size: 1.3rem; color: var(--text);">Tecnologias e Ferramentas</h3>
 
     <div class="tech-container">
+        
         <div class="tech-category">
-            <h4>Frontend & Backend</h4>
+            <h4>Linguagens e Backend</h4>
             <div class="tech-stack">
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML"><span>HTML</span></div>
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS"><span>CSS</span></div>
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=js" alt="JS"><span>JS</span></div>
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TS"><span>TS</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=js" alt="JavaScript"><span>JavaScript</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"><span>TypeScript</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"><span>Node.js</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
+            </div>
+        </div>
+
+        <div class="tech-category">
+            <h4>Frontend</h4>
+            <div class="tech-stack">
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=react" alt="React"><span>React</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"><span>Next.js</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=html" alt="HTML"><span>HTML</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=css" alt="CSS"><span>CSS</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind"><span>Tailwind</span></div>
             </div>
         </div>
 
         <div class="tech-category">
-            <h4>Backend & Database</h4>
+            <h4>Banco de Dados</h4>
             <div class="tech-stack">
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=python" alt="Python"><span>Python</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"><span>PostgreSQL</span></div>
-            </div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=supabase" alt="Supabase"><span>Supabase</span></div>
+                </div>
         </div>
 
         <div class="tech-category">
-            <h4>Ferramentas</h4>
+            <h4>Ferramentas e Ambiente</h4>
             <div class="tech-stack">
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"><span>GitHub</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"><span>AWS</span></div>
+                <div class="tech-item"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"><span>Docker</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=vscode" alt="VSCode"><span>VSCode</span></div>
             </div>
         </div>
+
+        <div class="tech-category">
+            <h4>Dados e BI</h4>
+            <div class="tech-stack">
+                 <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" style="width: 40px; height: 40px;"><span>Excel</span></div>
+                <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" style="width: 40px; height: 40px;"><span>Power BI</span></div>
+            </div>
+        </div>
+
     </div>
     `,
     projetos: `
