@@ -30,12 +30,22 @@ const tabs = {
             </div>
         </div>
 
-        <div class="tech-category">
-            <h4>Banco de Dados</h4>
-            <div class="tech-stack">
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
-                <div class="tech-item"><img src="https://skillicons.dev/icons?i=supabase" alt="Supabase"><span>Supabase</span></div>
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="tech-category" style="flex: 1;">
+                <h4>Banco de Dados</h4>
+                <div class="tech-stack">
+                    <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
+                    <div class="tech-item"><img src="https://skillicons.dev/icons?i=supabase" alt="Supabase"><span>Supabase</span></div>
                 </div>
+            </div>
+
+            <div class="tech-category" style="flex: 1;">
+                <h4>Dados e BI</h4>
+                <div class="tech-stack">
+                    <div class="tech-item"><img src="https://cdn.simpleicons.org/microsoft-excel" alt="Excel" style="width: 40px; height: 40px;"><span>Excel</span></div>
+                    <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" style="width: 40px; height: 40px;"><span>Power BI</span></div>
+                </div>
+            </div>
         </div>
 
         <div class="tech-category">
@@ -46,14 +56,6 @@ const tabs = {
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=aws" alt="AWS"><span>AWS</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=docker" alt="Docker"><span>Docker</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=vscode" alt="VSCode"><span>VSCode</span></div>
-            </div>
-        </div>
-
-        <div class="tech-category">
-            <h4>Dados e BI</h4>
-            <div class="tech-stack">
-                 <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" style="width: 40px; height: 40px;"><span>Excel</span></div>
-                <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" style="width: 40px; height: 40px;"><span>Power BI</span></div>
             </div>
         </div>
 
