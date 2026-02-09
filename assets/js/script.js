@@ -30,8 +30,9 @@ const tabs = {
             </div>
         </div>
 
-        <div style="display: flex; flex-direction: column; gap: 20px;">
-            <div class="tech-category" style="flex: 1;">
+        <div style="display: flex; flex-direction: column; gap: 20px; flex: 1;">
+            
+            <div class="tech-category" style="height: 100%;">
                 <h4>Banco de Dados</h4>
                 <div class="tech-stack">
                     <div class="tech-item"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"><span>MySQL</span></div>
@@ -39,18 +40,24 @@ const tabs = {
                 </div>
             </div>
 
-            <div class="tech-category" style="flex: 1;">
+            <div class="tech-category" style="height: 100%;">
                 <h4>Dados e BI</h4>
                 <div class="tech-stack">
-                    <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/excel/excel-original.svg" alt="Excel" style="width: 40px; height: 40px;"><span>Excel</span></div>
+                    <div class="tech-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1024px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Excel">
+                        <span>Excel</span>
+                    </div>
                     
-                    <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" style="width: 40px; height: 40px;"><span>Power BI</span></div>
+                    <div class="tech-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1024px-New_Power_BI_Logo.svg.png" alt="Power BI">
+                        <span>Power BI</span>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="tech-category">
-            <h4>Ferramentas e Ambiente</h4>
+            <h4>Ferramentas</h4>
             <div class="tech-stack">
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=git" alt="Git"><span>Git</span></div>
                 <div class="tech-item"><img src="https://skillicons.dev/icons?i=github" alt="GitHub"><span>GitHub</span></div>
