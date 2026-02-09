@@ -40,11 +40,11 @@ const tabs = {
                 </div>
             </div>
 
-            <div class="tech-category" style="height: 100%;">
+            <div class="tech-category" style="height: 100%;">  
                 <h4>Dados e BI</h4>
                 <div class="tech-stack">
                     <div class="tech-item">
-                        <img src="https://img.icons8.com/?size=100&id=117561&format=png" alt="Excel">
+                        <img src="https://img.icons8.com/?size=100&id=y5utoW4FUM92&format=png" alt="Excel">
                         <span>Excel</span>
                     </div>
                     
