@@ -8,6 +8,34 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+/* --- CONFIGURAÇÃO DA BARRA DE ROLAGEM (SCROLLBAR) --- */
+/* Funciona no Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+/* Funciona no Chrome, Edge e Safari */
+::-webkit-scrollbar {
+    width: 8px; /* Largura fina */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Fundo invisível */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1); /* Cor discreta em repouso */
+    border-radius: 20px; /* Bordas bem redondas */
+    border: 2px solid transparent; /* Cria um respiro interno */
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6366f1; /* Cor de destaque ao passar o mouse */
+    border: 0;
+}
+
 body {
     background-color: var(--bg);
     color: var(--text);
@@ -110,7 +138,7 @@ body {
 .content-area {
     flex: 1;
     padding: 60px 80px; 
-    overflow-y: auto;
+    overflow-y: auto; /* A barra personalizada vai aparecer aqui */
     animation: fadeIn 0.5s ease-out;
 }
 
@@ -259,12 +287,11 @@ body {
     transform: translateY(-5px);
 }
 
-/* CORREÇÃO IMPORTANTE AQUI */
 .tech-item img {
     width: 45px;
     height: 45px;
-    border-radius: 6px; /* Ajustado para ícones quadrados não ficarem redondos demais */
-    object-fit: contain; /* Garante que o ícone inteiro apareça */
+    border-radius: 6px; 
+    object-fit: contain;
     display: block;
 }
 
