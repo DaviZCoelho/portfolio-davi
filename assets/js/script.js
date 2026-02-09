@@ -42,7 +42,8 @@ const tabs = {
             <div class="tech-category" style="flex: 1;">
                 <h4>Dados e BI</h4>
                 <div class="tech-stack">
-                    <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" alt="Excel" style="width: 40px; height: 40px;"><span>Excel</span></div>
+                    <div class="tech-item"><img src="https://raw.githubusercontent.com/get-icon/get-icon/master/icons/microsoft-excel.svg" alt="Excel" style="width: 40px; height: 40px;"><span>Excel</span></div>
+                    
                     <div class="tech-item"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" style="width: 40px; height: 40px;"><span>Power BI</span></div>
                 </div>
             </div>
